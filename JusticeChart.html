@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="JusticeChart.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <title>Justice - Spotify Update</title>
+</head>
+<body>
+    <main class="Main">
+        <header class="Header">
+            <img src="https://static.stereogum.com/uploads/2021/03/unnamed-61-1616096526.png" alt="Justice preview" style="opacity: 0;">
+            <div class="SongName">
+                Name of song
+            </div>
+            <div class="Position">
+                P
+            </div>
+            <div class="UpDown">P +</div>
+            <div class="Streams">Streams</div>
+            <div class="GainLost">Gains +</div>
+        </header>
+        <div class="Song">
+            <img src="Songs/Holy.jpg" alt="Justice preview">
+            <div class="SongName">
+                Holy (Feat. Chance The Rapper)
+            </div>
+            <div class="Position">
+                1
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="1"></i></div>
+            <div class="Streams" contenteditable>426,633,265</div>
+            <div class="GainLost" contenteditable>1,157,972</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Lonely.jpg" alt="Justice preview">
+            <div class="SongName">
+                Lonely (With Benny Blanco)
+            </div>
+            <div class="Position">
+                2
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="2"></i></div>
+            <div class="Streams" contenteditable>391,735,849</div>
+            <div class="GainLost" contenteditable>1,012,798</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Peaches.jpg" alt="Justice preview">
+            <div class="SongName">
+                Peaches (Feat. Daniel Caesar & Giveon)
+            </div>
+            <div class="Position">
+                3
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="3"></i></div>
+            <div class="Streams" contenteditable>267,299,223</div>
+            <div class="GainLost" contenteditable>7,181,076</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Anyone.jpg" alt="Justice preview">
+            <div class="SongName">
+                Anyone
+            </div>
+            <div class="Position">
+                4
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="4"></i></div>
+            <div class="Streams" contenteditable>246,628,121</div>
+            <div class="GainLost" contenteditable>1,460,831</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/HoldOn.jpeg" alt="Justice preview">
+            <div class="SongName">
+                Hold On
+            </div>
+            <div class="Position">
+                5
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="5"></i></div>
+            <div class="Streams" contenteditable>157,958,322</div>
+            <div class="GainLost" contenteditable>2,549,816</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/AsIAm.png" alt="Justice preview">
+            <div class="SongName">
+                As I Am
+            </div>
+            <div class="Position">
+                6
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="6"></i></div>
+            <div class="Streams" contenteditable>66,092,752</div>
+            <div class="GainLost" contenteditable>883,925</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Unstable.png" alt="Justice preview">
+            <div class="SongName">
+                Unstable (Feat. The Kid LAROI)
+            </div>
+            <div class="Position">
+                7
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="7"></i></div>
+            <div class="Streams" contenteditable>36,033,246</div>
+            <div class="GainLost" contenteditable>429,817</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/OffMyFace.png" alt="Justice preview">
+            <div class="SongName">
+                Off My Face
+            </div>
+            <div class="Position">
+                8
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="8"></i></div>
+            <div class="Streams" contenteditable>34,780,060</div>
+            <div class="GainLost" contenteditable>474,868</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Ghost.png" alt="Justice preview">
+            <div class="SongName">
+                Ghost
+            </div>
+            <div class="Position">
+                9
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="9"></i></div>
+            <div class="Streams" contenteditable>33,927,953</div>
+            <div class="GainLost" contenteditable>427,879</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/2Much.png" alt="Justice preview">
+            <div class="SongName">
+                2 Much
+            </div>
+            <div class="Position">
+                10
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="10"></i></div>
+            <div class="Streams" contenteditable>29,284,605</div>
+            <div class="GainLost" contenteditable>353,260</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/DeserveYou.png" alt="Justice preview">
+            <div class="SongName">
+                Deserve You
+            </div>
+            <div class="Position">
+                11
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="11"></i></div>
+            <div class="Streams" contenteditable>28,231,563</div>
+            <div class="GainLost" contenteditable>309,638</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/DieForYou.png" alt="Justice preview">
+            <div class="SongName">
+                Die For You (Feat. Dominic Fike)
+            </div>
+            <div class="Position">
+                12
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="12"></i></div>
+            <div class="Streams" contenteditable>25,605,255</div>
+            <div class="GainLost" contenteditable>291,848</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/LovedByYou.png" alt="Justice preview">
+            <div class="SongName">
+                Love By You (Feat. Burna Boy)
+            </div>
+            <div class="Position">
+                13
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="13"></i></div>
+            <div class="Streams" contenteditable>25,566,977</div>
+            <div class="GainLost" contenteditable>297,956</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/LoveYouDifferent.png" alt="Justice preview">
+            <div class="SongName">
+                Love You Different (Feat. BEAM)
+            </div>
+            <div class="Position">
+                14
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="14"></i></div>
+            <div class="Streams" contenteditable>24,493,230</div>
+            <div class="GainLost" contenteditable>265,122</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Somebody.png" alt="Justice preview">
+            <div class="SongName">
+                Somebody
+            </div>
+            <div class="Position">
+                15
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="15"></i></div>
+            <div class="Streams" contenteditable>22,666,423</div>
+            <div class="GainLost" contenteditable>273,063</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Lifetime.png" alt="Justice preview">
+            <div class="SongName">
+                Lifetime
+            </div>
+            <div class="Position">
+                16
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="16"></i></div>
+            <div class="Streams" contenteditable>12,404,899</div>
+            <div class="GainLost" contenteditable>248,329</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/ThereSheGo.png" alt="Justice preview">
+            <div class="SongName">
+                There She Go (Feat. Lil Uzi Vert)
+            </div>
+            <div class="Position">
+                17
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="17"></i></div>
+            <div class="Streams" contenteditable>10,145,180</div>
+            <div class="GainLost" contenteditable>231,365</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/MLK.png" alt="Justice preview">
+            <div class="SongName">
+                MLK Interlude
+            </div>
+            <div class="Position">
+                19
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="18"></i></div>
+            <div class="Streams" contenteditable>9,744,385</div>
+            <div class="GainLost" contenteditable>76,333</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/iCantBeMySelf.png" alt="Justice preview">
+            <div class="SongName">
+                I Can't Be My Self (Feat. Jaden)
+            </div>
+            <div class="Position">
+                19
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="19"></i></div>
+            <div class="Streams" contenteditable>6,809,300</div>
+            <div class="GainLost" contenteditable>140,668</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/KnowNoBetter.png" alt="Justice preview">
+            <div class="SongName">
+                Know No Better (Feat. DaBaby)
+            </div>
+            <div class="Position">
+                20
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="20"></i></div>
+            <div class="Streams" contenteditable>5,836,170</div>
+            <div class="GainLost" contenteditable>124,372</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/WishYouWould.png" alt="Justice preview">
+            <div class="SongName">
+                Wish You Would (Feat. Quavo)
+            </div>
+            <div class="Position">
+                21
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="21"></i></div>
+            <div class="Streams" contenteditable>5,697,875</div>
+            <div class="GainLost" contenteditable>110,185</div>
+        </div>
+        <div class="Song">
+            <img src="Songs/Name.png" alt="Justice preview">
+            <div class="SongName">
+                Name (Feat. Tori Kelly)
+            </div>
+            <div class="Position">
+                22
+            </div>
+            <div class="UpDown"><i class="fas fa-equals" onclick="Icon(this.id)" id="22"></i></div>
+            <div class="Streams" contenteditable>5,526,383</div>
+            <div class="GainLost" contenteditable>107,268</div>
+        </div>
+        <footer class="Footer">
+            <div class="Total">Total</div>
+            <div class="Total_Streams" contenteditable>1,873,101,036</div>
+            <div class="Total_GainLost" contenteditable>18,408,299</div>
+        </footer>
+    </main>
+</body>
+<script src="JusticeChart.js"></script>
+</html>

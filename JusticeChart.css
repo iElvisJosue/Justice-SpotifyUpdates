@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-image: linear-gradient(to right,
+    rgba(92,60,133,255),
+    rgba(76,143,152,255)
+    );*/
+    display: grid;
+    place-items: center;
+}
+.Main{
+    width: 70%;
+    display: grid;
+    place-items: center;
+}
+.Header, .Footer{
+    background: rgba(85, 96, 142, .6)
+}
+.Header{
+    margin-top: 20px;
+}
+.Footer{
+    margin-bottom: 20px;
+}
+.Song{
+    background: rgba(0,0,0,.3);
+}
+
+.Song, .Header, .Footer{
+    width: 70%;
+    height: 30px;
+    display: inline-flex;
+    text-align: center;
+    line-height: 30px;
+}
+.Position, .SongName, .Streams, .GainLost, .UpDown, .Song img{
+    height: 100%;
+}
+.Position{
+    width: 5%;
+}
+.Song img, .Header img{
+    width: 5%;
+    opacity: 0.8;
+    transition: .6s;
+}
+.Song img:hover{
+    transform: scale(2);
+    opacity: 1;
+    cursor: pointer;
+    z-index: 9999;
+}
+.fa-equals{
+    color:  #55608e;
+}
+.fa-sort-down{
+    color:  #c23b22;
+}
+.fa-caret-up{
+    color:  #008f39;
+}
+.SongName{
+    width: 45%;
+}
+.Streams{
+    width: 20%;
+}
+.GainLost{
+    width: 20%;
+}
+.UpDown{
+    width: 5%;
+    cursor: pointer;
+}
+.Total{
+    width: 60%;
+    border-radius: 0px 0px 0px 10px;
+}
+.Total_Streams{
+    width: 20%;
+}
+.Total_GainLost{
+    width: 20%;
+}
+
+@media (max-width: 1260px){
+    .Main{
+        width: 100%;
+        height: 100%;
+        place-content: center;
+    }
+}
+@media (max-width: 767px){
+    *{
+        font-size: 10px;
+    }
+    .Song, .Header, .Footer{
+        width: 100%;
+        margin: 0;
+    }
+    body{
+        background-image: url(BG2.png);
+        height: 115vh;
+    }
+}
+@media (max-width: 430px){
+    .SongName{
+        width: 55%;
+
+    }
+    .Streams{
+        width: 15%;
+
+    }
+    .GainLost{
+        width: 15%;
+    }
+}
+@media (max-width: 360px){
+    *{
+        font-size: 8px;
+    }
+}
